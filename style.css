@@ -38,7 +38,7 @@ html,body{
     color: #fff;
     background-color: #ff0000;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 .banner-part div #banner-link{
     position: absolute;
@@ -52,5 +52,65 @@ html,body{
 .donate{
     width: 100%;
     height: 100vh;
+    position: absolute;
+    align-items: center;
+}
+.donate h1{
+    position: absolute;
+    font-size: xx-large;
+    top:10%;
+    width:100%;
+    text-align: center;
+}
+.donate p{
+    position: absolute;
+    top:22%;
+    margin-left: 25%;
+    width: 50%;
+    text-align: center;
+}
+.donate .donate-amount{
+    position: absolute;
+    top: 37%;
+    display:flex;
+    margin-left: 25%;
+  
+}
+.donate .donate-amount div{
+    margin: 5px;
+    padding: 5px;
+    height: auto;
+    width: 125px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+
+}
+.donate .donate-amount div h2{
+    text-align: center;
+}
+.donate .donate-amount #activate{
+    color: #FF5959;
+    background-color: #FFEEEE;
+    border:2px solid #ff5959;
+}
+.donate .castom-amount{
+   position: absolute;
+   top: 58%;
+   margin-left: 25%;
+   width: 50%;
+}
+.donate .castom-amount p{
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(118, 115, 115);
+}
+.donate .castom-amount a{
+    margin-top: 15%;
+    position:absolute;
+    margin-left:41.5% ;
+    text-decoration:none ;
+    color: #fff;
     background-color: #ff0000;
+    padding: 15px;
+    border-radius: 8px;
 }
