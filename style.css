@@ -1,0 +1,51 @@
+
+*{
+    font-family:'Inter', sans-serif;
+} 
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.banner-part{
+    height: 100vh;
+    width: 100%;
+  
+}
+.banner-part img{
+    height: 103vh;
+    width: 100%;
+
+}
+.banner-part h1{
+    color: #fff;
+    font-size: xxx-large;
+    position: absolute;
+    margin-left:350px;
+    top: 200px;
+    width:50%;
+    text-align: center;
+}
+.banner-part p{
+    position: absolute;
+    top: 360px;
+    color: #fff;
+    width:50%;
+    margin-left: 350px;
+    text-align: center;
+}  
+.banner-part a{
+    text-decoration:none ;
+    color: #fff;
+    background-color: #ff0000;
+    padding: 15px;
+    border-radius: 10px;
+}
+.banner-part div #banner-link{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 640px;
+    top: 458px;
+    align-items: center;
+    
+}
