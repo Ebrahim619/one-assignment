@@ -58,20 +58,20 @@ html,body{
 .donate h1{
     position: absolute;
     font-size: xx-large;
-    top:10%;
+    top:60px;
     width:100%;
     text-align: center;
 }
 .donate p{
     position: absolute;
-    top:22%;
+    top:140px;
     margin-left: 25%;
     width: 50%;
     text-align: center;
 }
 .donate .donate-amount{
     position: absolute;
-    top: 37%;
+    top: 230px;
     display:flex;
     margin-left: 25%;
   
@@ -95,7 +95,7 @@ html,body{
 }
 .donate .castom-amount{
    position: absolute;
-   top: 58%;
+   top: 250px;
    margin-left: 25%;
    width: 50%;
 }
@@ -105,7 +105,7 @@ html,body{
     border-bottom: 1px solid rgb(118, 115, 115);
 }
 .donate .castom-amount a{
-    margin-top: 15%;
+    margin-top:230px;
     position:absolute;
     margin-left:41.5% ;
     text-decoration:none ;
@@ -113,4 +113,112 @@ html,body{
     background-color: #ff0000;
     padding: 15px;
     border-radius: 8px;
+}
+.last{
+    height: 100vh;
+    width: 100%;
+    background-color: #Fff;
+}
+.donate-plan{
+    height: 100vh;
+    width: 100%;
+    margin-top: 30px;
+}
+.donate-plan h1{
+     width: 100%;
+    margin-top:11px;
+    text-align: center;
+}
+.donate-plan p{
+    width: 50%;
+    margin-left:350px;
+    margin-top: 15px;
+    text-align: center;
+}
+.donate-plan-item{
+    display: flex;
+    
+   
+} 
+.donate-plan-item .food{
+    margin-left: 6.5%;
+    margin-right: 3.8%;
+    background-color: #4f9da61a;
+    height: 300px;
+    width: 320px;
+    margin-top:95px ;
+    border-radius: 5px;
+}
+.donate-plan-item .food img{
+    margin: 0;
+    padding-top:5px ;
+    padding-left: 5px;
+    height: 100px;
+    width: 100px;
+}
+.donate-plan-item .food h1{
+    text-align: left;
+    padding-left: 25px;
+}
+.donate-plan-item .food p{
+    width:280px;
+    margin-top: 30px;
+    margin-left:0;
+    padding-left: 20px;
+    text-align:left;
+}
+.donate-plan-item .clothes{
+    margin-left: 3.8%;
+    margin-right: 3.8%;
+    background-color: #ff59591a;
+    height: 300px;
+    width: 320px;
+    margin-top:95px  ;
+    border-radius: 5px;
+}
+.donate-plan-item .clothes img{
+    margin: 0;
+    padding-top:5px ;
+    padding-left: 5px;
+    height: 100px;
+    width: 100px;
+}
+.donate-plan-item .clothes h1{
+    text-align: left;
+    padding-left: 25px;
+}
+.donate-plan-item .clothes p{
+    width:280px;
+    margin-top: 30px;
+    margin-left:0;
+    padding-left: 20px;
+    text-align:left;
+}
+
+.donate-plan-item .medicine{
+    margin-left: 3.5%;
+    margin-right: 5.72%;
+    background-color: #fff4d6;
+    height: 300px;
+    width: 320px;
+    margin-top:95px  ;
+    border-radius: 5px;
+}
+.donate-plan-item .medicine img{
+    margin: 0;
+    padding-top:5px ;
+    padding-left: 5px;
+    height: 100px;
+    width: 100px;
+}
+.donate-plan-item .medicine h1{
+    text-align: left;
+    padding-left: 25px;
+}
+.donate-plan-item .medicine p{
+    width:280px;
+    margin-top: 30px;
+    margin-left:0;
+    padding-left: 20px;
+    text-align:left;
 }
