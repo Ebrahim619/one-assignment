@@ -222,3 +222,46 @@ html,body{
     padding-left: 20px;
     text-align:left;
 }
+/* their-misery-situation-start**
+**
+*** */
+.their-misery-situation{
+    height: 80vh;
+    display: flex;
+}
+
+.half-width-1{
+    width:50%;
+}
+.half-width-1 h1{
+ 
+    padding-left: 12.57%;
+    font-size: xxx-large;
+
+}
+.half-width-1 p{
+    width:50%;
+    align-items: center;
+    padding-left: 12.57%;
+    padding-top:10px ;
+    font-size:medium;
+
+}
+.half-width-1 a{
+    margin-left:12.57% ;
+    text-decoration:none ;
+    color: #fff;
+    background-color: #ff0000;
+    padding: 15px;
+    border-radius: 8px;
+}
+#bottom{
+  padding-bottom: 30px;
+}  
+.half-width-2{
+    width:50%;
+}
+.half-width-2 img{
+    width: 90%;
+}
+
